@@ -61,7 +61,7 @@ public class Equipo {
         return jugadores;
     }
 
-    public void setJugadores(ArrayList<Jugador> jugadores) {
-        this.jugadores = jugadores;
+    public static void setJugadores(ArrayList<Jugador> jugadores) {
+        jugadores = jugadores;
     }
 }
